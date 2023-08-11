@@ -1,4 +1,5 @@
 package dto;
+
 import lombok.*;
 
 @Setter
@@ -6,9 +7,8 @@ import lombok.*;
 @Builder
 @ToString
 @AllArgsConstructor
-public class AuthResponseDTO {
 
-    String token;
-
+public class ContactResponseDTO {
+    String message;
 
 }
